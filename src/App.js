@@ -1,16 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import ReactDOM from 'react-dom'
 import React from 'react'
+import Name from './Name.js';
+import Clock from './Clock.js'
 
 
 function App(){
-  const element = <h1>Hello, world</h1>;
-  ReactDOM.render(element, document.getElementById('root'));
+  return(
+      <>
+        <Clock />
+        <Name fname = "John" lname = "Silver"/>
+      </>
+    
+  );
 }
-
-
-
-
 
 export default App;
