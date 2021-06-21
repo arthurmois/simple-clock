@@ -1,15 +1,6 @@
 import './App.css';
 import React from 'react'
 
-
-// function Clock(props){
-//   return(
-//     <div>
-//        <h2>It's already {new Date().toLocaleTimeString()}!</h2>
-//     </div>
-//   );
-// }
-
 class Clock extends React.Component {
   constructor(props) {
     super(props);
@@ -37,7 +28,7 @@ class Clock extends React.Component {
   render() {
     return (
       <div>
-        <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
+        <h2>It's already {this.state.date.toLocaleTimeString()}!</h2>
       </div>
     );
   }

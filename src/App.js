@@ -7,8 +7,8 @@ import Clock from './Clock.js'
 function App(){
   return(
       <>
-        <Clock />
         <Name fname = "John" lname = "Silver"/>
+        <Clock />
       </>
     
   );

@@ -10,7 +10,7 @@ function Name(props){
   return(
     <>
       <h1>
-        Hello my name is {fname} {lname}
+        {fname} {lname}!
       </h1>
     </>
     
